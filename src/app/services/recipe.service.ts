@@ -6,7 +6,7 @@ import { Recipe } from "../models";
 @Injectable()
 export class RecipeService {
 
-  url = "http://localhost:8080/"
+  url = "https://glacial-inlet-66560.herokuapp.com/"
 
   constructor(private http: HttpClient) {
 
